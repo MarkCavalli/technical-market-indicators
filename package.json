@@ -5,6 +5,11 @@
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "keywords": [],
+  "files": [
+    "lib/index.js",
+    "lib/index.d.ts",
+    "lib/src/**/*"
+  ],
   "scripts": {
     "watch": "tsc --watch",
     "build": "tsc",
