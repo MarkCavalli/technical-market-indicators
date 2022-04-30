@@ -1,4 +1,4 @@
 export interface NumberConfig {
-    arr: number[],
+    values: number[],
     period: number
 }
