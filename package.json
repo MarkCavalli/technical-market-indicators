@@ -13,13 +13,11 @@
   "scripts": {
     "watch": "tsc --watch",
     "build": "tsc",
-    "test": "mocha ./lib/test.js",
+    "test": "mocha ./lib/test/**/*.js",
     "lint": "eslint --ext .ts ./",
     "prepare": "npm run build",
     "prepublishOnly": "npm test",
-    "preversion": "npm run lint",
-    "version": "git add -A",
-    "postversion": "git push && git push --tags"
+    "preversion": "npm run lint"
   },
   "repository": {
     "type": "git",

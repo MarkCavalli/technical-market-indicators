@@ -9,7 +9,7 @@
     },
     "include": [
         "index.ts",
-        "test.ts"
+        "test"
     ],
     "exclude": [
         "node_modules",

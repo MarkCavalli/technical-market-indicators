@@ -1,5 +1,9 @@
-import { SMA } from './src/sma';
-import { EMA } from './src/ema';
-import { WMA } from './src/wma';
+import { SMA } from './src/moving-average/sma';
+import { EMA } from './src/moving-average/ema';
+import { WMA } from './src/moving-average/wma';
 
-export { SMA, EMA, WMA };
+import { RSI } from './src/oscillator/rsi';
+
+import { PercentDifference } from './src/utils/percent-difference';
+
+export { SMA, EMA, WMA, RSI, PercentDifference };
